@@ -1,0 +1,17 @@
+.product_container {
+    transition: all 0.4s cubic-bezier(0, 0.69, 0.25, 1) 0s;
+}
+.product_container:hover {
+    box-shadow: 2px 4px 6px #888888;
+    border: 1px solid red;
+}
+.test {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-wrap: break-word;
+    line-height: 1.125rem;
+    height: 2.25rem;
+}
